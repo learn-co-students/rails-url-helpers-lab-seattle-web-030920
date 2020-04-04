@@ -10,6 +10,7 @@ describe Student do
   end
 
   it 'has an active attribute that defaults to false' do
+    binding.pry
     expect(@student.active).to eq(false)
   end
 
